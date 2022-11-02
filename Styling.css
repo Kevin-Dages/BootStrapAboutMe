@@ -22,3 +22,13 @@ img.card-image-top {
 div.card {
   border: solid 1px black;
 }
+
+  #PDF{
+  height: 750px ;
+  width: 60%;
+  margin-left: 350px;
+  margin-top: 1em;
+  margin-bottom: 5em;
+}
+
+
