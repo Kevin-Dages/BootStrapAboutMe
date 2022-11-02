@@ -1,0 +1,24 @@
+body{
+    background-color: lightgray;
+}
+div.card{
+    color: black;
+    background-color: lightgray;
+    
+}
+li.list-group-item{
+    background-color: lightgray;
+}
+img.card-image-top{
+    height: 500px;
+    width: 500px;
+    position: relative;
+    left: 11%;
+    justify-content: center;
+    border: solid 1px black;
+    
+}
+
+div.card{
+    border: solid 1px black;
+}
