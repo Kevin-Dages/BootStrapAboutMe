@@ -1,24 +1,24 @@
-body{
-    background-color: lightgray;
+body {
+  background-color: rgb(140, 135, 135);
 }
-div.card{
-    color: black;
-    background-color: lightgray;
-    
+div.card {
+  color: black;
+  background-color: white;
 }
-li.list-group-item{
-    background-color: lightgray;
+li.list-group-item {
+  background-color: white;
 }
-img.card-image-top{
-    height: 500px;
-    width: 500px;
-    position: relative;
-    left: 11%;
-    justify-content: center;
-    border: solid 1px black;
-    
+img.card-image-top {
+  height: 500px;
+  width: 500px;
+  align-content: center;
+  border: solid 1px black;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
-div.card{
-    border: solid 1px black;
+div.card {
+  border: solid 1px black;
 }
