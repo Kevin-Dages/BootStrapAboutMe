@@ -57,5 +57,60 @@ h1{
   height: 100%;
 }
 
+.about_me {
+  align-content: center;
+  margin: auto;
+  
+}
 
+@media screen and (max-width: 1024px) {
+  .about__container {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  .about_me {
+    width: 50%;
+    margin: 2rem auto 4rem;
+  }
+
+  .about__cards {
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+
+  .about__content {
+    text-align: center;
+  }
+
+  .about__content p {
+    margin: 2rem 0 1.5rem;
+  }
+}
+
+/* =================== Media Queries (Small Devices) ============================= */
+
+@media screen and (max-width: 600px) {
+  .about_me {
+    /* width: auto;
+  height: auto; */
+    /* width: 95%;
+    height: 95%; */
+    aspect-ratio: 1/1;
+    margin: 0 auto 3rem;
+  }
+
+  .about__cards {
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+
+  .about__content {
+    text-align: center;
+  }
+
+  .about__content p {
+    margin: 1.5rem 0;
+  }
+}
 
