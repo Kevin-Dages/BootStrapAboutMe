@@ -4,6 +4,7 @@ body {
 div.card {
   color: black;
   background-color: white;
+  box-shadow: 10px 5px 5px black;
 }
 li.list-group-item {
   background-color: white;
@@ -47,6 +48,13 @@ h1{
   margin-left: auto;
   margin-top: 1em;
   margin-right: auto;
+  
+}
+#Resume{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
 }
 
 
